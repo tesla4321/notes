@@ -20,7 +20,7 @@ func isPowerOfTwo(x int) bool {
 -------------
 
 
-2. slice 做append的时候会导致内存地址变化，指向的底层数组不变。
+2. slice 做append的时候会导致内存地址变化，指向的底层看情况有时候会变有时候不变。
 ```go
 func main() {
 	gg := []string{"a","b","c","d"}
